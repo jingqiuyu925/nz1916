@@ -1,0 +1,9 @@
+{
+  "proxy":{
+    "/apis":{
+      "target":"",
+      "changeOrigin":true,
+      "pathRewrite":{"^/apis":""}
+    }
+  }
+}
